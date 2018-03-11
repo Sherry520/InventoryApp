@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="product_name">Name</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="product_price">Price</string>
+    <string name="sales_times">Times</string>
+    <string name="sale">Sale</string>
+    <string name="order">Order</string>
+    <string name="delete">Delete</string>
+    <string name="add_product">Add</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...\nGet started by adding a product</string>
+    <string name="action_insert_product_data">Insert Product Data</string>
+    <string name="action_delete_all_entries">Delete All Products</string>
+    <string name="product_plus">+</string>
+    <string name="product_minus">-</string>
+    <string name="product_supplier">Supplier</string>
+    <string name="dollar">$</string>
+    <string name="tel">Tel:</string>
+    <string name="editor_activity_title_new_product">Add a product</string>
+    <string name="editor_activity_title_edit_product">Edit a product</string>
+    <string name="editor_insert_product_failed">Error with insert product</string>
+    <string name="editor_insert_product_successful">Product saved</string>
+    <string name="action_save">Save</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="cancel">Cancel</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="add_picture">Add Picture</string>
+    <string name="picture">Picture</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:descendantFocusability= "blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/product_name_text"
+        style="@style/ListTextStyle"
+        android:layout_weight="3"
+        Tools:text="@string/product_name" />
+
+    <TextView
+        android:id="@+id/product_quantity_text"
+        style="@style/ListTextStyle"
+        android:layout_weight="2"
+        Tools:text="@string/product_quantity" />
+
+    <TextView
+        android:id="@+id/product_price_text"
+        android:layout_weight="2"
+        style="@style/ListTextStyle"
+        Tools:text="@string/product_price" />
+
+    <TextView
+        android:id="@+id/sales_times_text"
+        android:layout_weight="2"
+        style="@style/ListTextStyle"
+        Tools:text="@string/sales_times" />
+    <Button
+        android:focusable = "false"
+        android:id="@+id/list_sale"
+        android:text="@string/sale"
+        style="@style/ListTextStyle"
+        android:layout_weight="3" />
+
+</LinearLayout>
